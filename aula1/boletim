@@ -1,0 +1,11 @@
+nome1='João'
+nome2='Alessandro'
+
+nota1=10
+nota2=6
+print(nota1)
+print(type(nota1))
+
+media=nota1+nota2
+divisao=media/2
+print(divisao)

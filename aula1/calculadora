@@ -1,0 +1,17 @@
+numero1=float(input('digite um numero: '))
+numero2=float(input('digite um numero:'))
+
+soma=numero1+numero2
+print(soma)
+
+subtracao=numero1-numero2
+print(subtracao)
+
+divisao=numero1/numero2
+print(divisao)
+
+multiplicacao=numero1*numero2
+print(multiplicacao)
+
+modulo=numero1%numero2
+print(modulo)

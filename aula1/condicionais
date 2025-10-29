@@ -1,0 +1,19 @@
+moto=True
+preco=18.40
+if preco >10:
+    print('hmmm... carinho heim')   
+elif preco <20:
+    print('ok, nao ta tao ruim assim')
+else:
+    print('hoje não deu')
+
+
+N1=25
+N2=2
+N3=85
+if N1>N2 and N1<N3:
+    print('N3>N1>N2')
+elif N1<N3 and N2<N1:
+    print('N3>N1>N2')
+else:
+    print('N1>N2>N3')
