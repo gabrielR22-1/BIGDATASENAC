@@ -1,0 +1,29 @@
+# Escreva um programa para calcular e imprimir o número de lâmpadas necessárias para
+# iluminar um determinado cômodo de uma residência. Dados de entrada: a potência da
+# lâmpada utilizada (em watts), as dimensões (largura e comprimento, em metros) do
+# cômodo. Considere que a potência necessária é de 3 watts por metro quadrado e a cada
+# 3m² existe um bocal para uma lâmpada.
+
+potencia=3
+largura=4
+comprimento=15
+dimensoes=largura*comprimento
+nl=int(input('numero de lampadas é '))
+if nl==60:
+    print(30)
+elif nl==30:
+    print(10)
+else:
+    print('nada')
+    
+
+#     Escreva um programa para ler as dimensões de uma cozinha retangular (comprimento,
+# largura e altura), calcular e escrever a quantidade de caixas de azulejos para se colocar em
+# todas as suas paredes (considere que não será descontada a área ocupada por portas e
+# janelas). Cada caixa de azulejos possui 1,5 m²
+
+coprimento=10
+largura=2,5
+altura=2
+area=(comprimento*largura)/altura
+cx=int(input('')
